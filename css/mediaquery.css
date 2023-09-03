@@ -1,0 +1,103 @@
+.nav-card {
+  width: var(--nav-width);
+  max-height: 380px;
+  display: none;
+}
+
+.main-card {
+  max-width: 10rem;
+}
+
+.svg-img {
+  max-height: 200px;
+}
+
+
+@media (min-width:520px) {
+  .profile-div {
+    display: flex !important;
+
+  }
+
+  .profile-img {}
+}
+
+
+
+@media (min-width : 1000px) {
+
+
+  .profile-div {
+    display: flex !important;
+  }
+
+  .friends-list-card {
+    max-height: 500px;
+    display: none;
+
+  }
+
+  .svg-img {
+    max-height: 30rem;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .below-svg-div {
+
+    gap: 20px;
+    max-width: 20rem;
+  }
+
+  .login-container {
+
+    gap: 2rem;
+    margin-left: -15rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .layout-container {
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+
+  }
+
+
+  .profile-div {
+    display: flex;
+
+  }
+
+
+  .main-card {
+    display: flex;
+    margin-left: -0.5em;
+
+  }
+
+  .nav-card {
+    display: grid;
+  }
+
+
+  .friends-list-card {
+    float: right;
+    display: grid;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+
+}
+
+@media (max-width:720px) {
+  .profile-img {
+    display: none;
+  }
+
+}

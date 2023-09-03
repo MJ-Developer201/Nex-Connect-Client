@@ -1,0 +1,10 @@
+.friends-card:hover {
+  cursor: pointer;
+}
+
+
+
+#friends-card {
+  background-color: rgba(184, 184, 184, 0.8);
+  background-image: linear-gradient(50deg, rgb(252, 252, 252), rgb(255, 255, 255));
+}

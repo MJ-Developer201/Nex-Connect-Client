@@ -1,0 +1,35 @@
+.no-friends-message {
+  color: #888;
+  font-weight: bold;
+}
+
+.underline {
+  padding: 1px;
+  background-color: #2376A8;
+  max-width: 4.5rem;
+  margin-left: -0.1rem;
+}
+
+.friends-list-h6 {
+  font-size: 16px;
+}
+
+.friends-list-h6:hover {
+  cursor: pointer;
+}
+
+.friend-search-field {
+  width: 250px;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.friends-list-avatar:hover {
+  cursor: pointer;
+}
